@@ -1,9 +1,12 @@
+// Sa se scrie un program C care care calculeaza media aritmetica a doua numere intregi citite de la tastatura cu ajutorul unei functii definite de utilizator.
+
 #include <stdio.h>
 #include <stdlib.h>
 
-float media(int x, int y) {
+float media(int x, int y)
+{
     float mediaAritmetica;
-    mediaAritmetica = (x + y ) / 2.0; // rezultatul este de tip float
+    mediaAritmetica = (x + y) / 2.0; // rezultatul va fi de tip float
     return mediaAritmetica;
 }
 
