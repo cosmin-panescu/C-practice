@@ -2,11 +2,12 @@
 
 <b>RO</b>
 </br>
-<p>Scop: Invatarea limbajului de programare C prin rezolvarea de exercitii al caror nivel de dificultate creste treptat.</p>
-</p>Studierea acestui limbaj de programare o fac prin intermediul materiei Programarea Calculatoarelor, de la Facultate.</p>
+Scop: Invatarea limbajului de programare C prin rezolvarea de exercitii al caror nivel de dificultate creste treptat.
+</br>
+Studierea acestui limbaj de programare o fac prin intermediul materiei "Programarea Calculatoarelor" de la Facultate.
 
 <b>EN</b>
 </br>
-Scop: Invatarea limbajului de programare C prin rezolvarea de exercitii al caror nivel de dificultate creste treptat.
+Purpose: Learning the C programming language by solving exercises whose level of difficulty increases gradually.
 </br>
-Studierea acestui limbaj de programare o fac prin intermediul materiei Programarea Calculatoarelor, de la Facultate.
+I study this programming language through the "Computer Programming" subject at the Faculty.
