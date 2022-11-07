@@ -2,8 +2,9 @@
 
 <b>RO</b>
 </br>
-Scop: Invatarea limbajului de programare C prin rezolvarea de exercitii al caror nivel de dificultate creste treptat.
-Studierea acestui limbaj de programare o fac prin intermediul materiei Programarea Calculatoarelor, de la Facultate.
+<p>Scop: Invatarea limbajului de programare C prin rezolvarea de exercitii al caror nivel de dificultate creste treptat.</p>
+<br>
+</p>Studierea acestui limbaj de programare o fac prin intermediul materiei Programarea Calculatoarelor, de la Facultate.</p>
 
 <b>EN</b>
 </br>
