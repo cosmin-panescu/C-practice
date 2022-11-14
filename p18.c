@@ -17,7 +17,7 @@ int main()
     {
         for (j = 0; j < 4; j++)
         {
-            printf("%d ", a[i][j]);
+            printf("%5d", a[i][j]);
         }
         printf("\n");
     }

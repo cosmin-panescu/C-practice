@@ -26,7 +26,7 @@ void afisare(int a[][4], int n, int m)
     {
         for (j = 0; j < m; j++)
         {
-            printf("%d ", a[i][j]);
+            printf("%5d", a[i][j]);
         }
 
         printf("\n");
