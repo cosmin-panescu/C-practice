@@ -55,6 +55,19 @@ void citire_elemente(int a[10][5], int n, int m)
             scanf("%d", &a[i][j]);
         }
     }
+
+    printf("\n");
+
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < m; j++)
+        {
+            printf("%5d", a[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("\n");
 }
 
 // suma elementelor matricei
@@ -118,9 +131,9 @@ void interschimbare_linii(int a[10][5], int n, int m, int linia1, int linia2)
         a[linia2][j] = aux;
     }
 
-    for (i = 0; i <= n; i++)
+    for (i = 0; i < n; i++)
     {
-        for (j = 0; j <= m; j++)
+        for (j = 0; j < m; j++)
         {
             printf("%5d", a[i][j]);
         }
@@ -140,9 +153,9 @@ void interschimbare_coloane(int a[10][5], int n, int m, int coloana1, int coloan
         a[i][coloana2] = aux;
     }
 
-    for (i = 0; i <= n; i++)
+    for (i = 0; i < n; i++)
     {
-        for (j = 0; j <= m; j++)
+        for (j = 0; j < m; j++)
         {
             printf("%5d", a[i][j]);
         }
@@ -166,11 +179,11 @@ void max_linie(int a[10][5], int n, int m)
 {
     int max, i, j;
 
-    for (i = 1; i <= n; i++)
+    for (i = 0; i < n; i++)
     {
         max = -999;
 
-        for (j = 1; j <= m; j++)
+        for (j = 0; j < m; j++)
             if (a[i][j] > max)
                 max = a[i][j];
 
@@ -185,11 +198,11 @@ void min_coloana(int a[10][5], int n, int m)
 {
     int min, i, j;
 
-    for (j = 1; j <= m; j++)
+    for (j = 0; j < m; j++)
     {
         min = 999;
 
-        for (i = 1; i <= n; i++)
+        for (i = 0; i < n; i++)
             if (a[i][j] < min)
                 min = a[i][j];
 
@@ -209,26 +222,34 @@ int main()
     citire_elemente(a, n, m);
 
     printf("Suma elementelor matricei este: %d\n", suma_elemente(a, n, m));
+    printf("\n");
+
     printf("Suma elementelor pozitive ale matricei este: %d\n", suma_elemente_poz(a, n, m));
+    printf("\n");
 
     printf("Introduceti numarul liniei a carei suma doriti sa fie calculata: ");
     scanf("%d", &l);
     printf("Suma elementelor de pe linia %d este: %d\n", l, suma_linie(a, m, l - 1)); // l-1 deoarece indexarea incepe de la 0
+    printf("\n");
 
     // tema
     printf("Valoarea medie a elementelor matricei este: %f\n", medie_elemente(a, n, m));
+    printf("\n");
 
     printf("Introduceti indexul liniilor pe care doriti sa le interschimbati: ");
     scanf("%d %d", &l1, &l2);
     interschimbare_linii(a, n, m, l1 - 1, l2 - 1);
+    printf("\n");
 
     printf("Introduceti indexul coloanelor pe care doriti sa le interschimbati: ");
     scanf("%d %d", &c1, &c2);
     interschimbare_coloane(a, n, m, c1 - 1, c2 - 1);
+    printf("\n");
 
-    printf("Introduceti indexul coloanei a carei elemente doriti sa le insuamati: ");
+    printf("Introduceti indexul coloanei a carei elemente doriti sa le insumati: ");
     scanf("%d", &c);
     printf("Suma elementelor de pe coloana %d a matricei este: %d\n", c, suma_coloana(a, n, c - 1));
+    printf("\n");
 
     max_linie(a, n, m);
     min_coloana(a, n, m);
