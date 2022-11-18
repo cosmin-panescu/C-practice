@@ -1,3 +1,5 @@
+// Sa se scrie un program care citește un șir de numere (pozitive și negative) și afișează media aritmetică a numerelor pozitive și media aritmetică a numerelor negative.(Atenție la situația când toate numerele au același semn!).
+
 #include <stdio.h>
 
 int main()
