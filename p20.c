@@ -17,7 +17,7 @@ int citire_nr_linii()
     printf("Introduceti numarul de linii al matricei: ");
     scanf("%d", &nr);
 
-    if (nr > 10)
+    while (nr > 10)
     {
         printf("Ati introdus o valoare prea mare!\n");
         printf("Introduceti din nou numarul de linii al matricei: ");
@@ -34,7 +34,7 @@ int citire_nr_coloane()
     printf("Introduceti numarul de coloane al matricei: ");
     scanf("%d", &nr);
 
-    if (nr > 5)
+    while (nr > 5)
     {
         printf("Ati introdus o valoare prea mare!\n");
         printf("Introduceti din nou numarul de coloane al matricei: ");
