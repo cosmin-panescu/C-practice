@@ -1,7 +1,7 @@
 // Scrieți un program C in care se declara o matrice cu 5 linii si 4 coloane ale cărei elemente sunt numere întregi. Programul va defini doua funcții care primesc ca argumente matricea si dimensiunile ei :
 // - O funcție care citește valorile elementelor matricei de la tastatura;
 // - O funcție care afișează elemente matricei pe ecran, cate o linie a matricei pe o linie de ecran.
-// In funcția main()a programului se vor apela cele doua funcții de citire si afișare pe ecran.
+// In funcția main() a programului se vor apela cele doua funcții de citire si afișare pe ecran.
 
 #include <stdio.h>
 #include <stdlib.h>
