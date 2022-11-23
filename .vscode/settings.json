@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.scss": "scss",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "stdio.h": "c"
     }
 }
