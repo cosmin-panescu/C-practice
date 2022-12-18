@@ -1,4 +1,5 @@
 // Scrieti o functie recursiva care afiseaza un numar intreg in baza 2
+
 #include <stdio.h>
 
 void afisare_baza2(int n)
