@@ -26,7 +26,7 @@ struct angajat
     int cod_angajat;
     char *nume;
     char *prenume;
-    struct
+    structgit
     {
         int an;
         int luna;
