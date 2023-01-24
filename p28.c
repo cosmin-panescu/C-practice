@@ -1,4 +1,4 @@
-// Sa se scrie un program C in care :
+// Sa se scrie un program C in care:
 // - se citesc de la tastatura numărul de linii si coloane ale unei matrice de numere întregi;
 // - se aloca dinamic o matrice cu dimensiunile citite anterior;
 // - se setează valorile elementelor matricei astfel: elementele de pe diagonala principala vor avea valoarea 1, celelalte elemente vor avea valoarea 0;

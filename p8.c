@@ -1,4 +1,4 @@
-// Sa se scrie un program C care rezolva ecuatia de gradul I.Coeficientii ecuatiei sunt cititi de la tastatura.
+// Sa se scrie un program C care rezolva ecuatia de gradul I. Coeficientii ecuatiei sunt cititi de la tastatura.
 
 //  Forma ecuatiei de gradul I este a*x + b = 0
 

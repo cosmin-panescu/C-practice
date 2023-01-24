@@ -16,7 +16,7 @@ int main()
 
     if (fisier == NULL)
     {
-        printf("\nFisierul nu a putut fi desschis!\n");
+        printf("\nFisierul nu a putut fi deschis!\n");
         printf("Incercati din nou!\n");
 
         exit(EXIT_FAILURE);

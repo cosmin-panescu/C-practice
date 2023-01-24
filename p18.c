@@ -1,4 +1,4 @@
-// Scrieți un program C in care se declara o matrice cu 5 linii si 4 coloane ale cărei elemente sunt numere întregi. Matricea va fi inițializată la declararea apoi va fi afișată pe ecran, cate o linie a matricei pe o linie de ecran.
+// Scrieți un program C in care se declara o matrice cu 5 linii si 4 coloane ale cărei elemente sunt numere întregi. Matricea va fi inițializată la declarare apoi va fi afișată pe ecran, cate o linie a matricei pe o linie de ecran.
 
 #include <stdio.h>
 #include <stdlib.h>

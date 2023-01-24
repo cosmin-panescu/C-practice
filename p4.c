@@ -1,4 +1,4 @@
-// Sa se scrie un program C care calculeaza suma a doua numere intregi, astfel : se dau doua valori direct in program memorate in doua variabile, se calculeaza suma lor si se afiseaza.
+// Sa se scrie un program C care calculeaza suma a doua numere intregi, astfel: se dau doua valori direct in program memorate in doua variabile, se calculeaza suma lor si se afiseaza.
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -89,7 +89,7 @@ float media_elem(int nr, int *a)
     return m;
 }
 
-// numarul elementelor negativa
+// numarul elementelor negative
 int nr_negative(int nr, int *a)
 {
     int i;

@@ -1,4 +1,4 @@
-// Sa se scrie un program C care calculeza suma a doua numere intregi, astfel : se citesc numerele de la tastatura, se calculeaza suma lor si se afiseaza rezultatul.
+// Sa se scrie un program C care calculeza suma a doua numere intregi, astfel: se citesc numerele de la tastatura, se calculeaza suma lor si se afiseaza rezultatul.
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,4 +1,4 @@
-// Sa se scrie un program C in care :
+// Sa se scrie un program C in care:
 // - se citesc de la tastatura dimensiunile (nr. linii si nr. coloane) a doua matrici A si B si se face verificarea acestor dimensiuni astfel incat cele doua matrici sa poata fi inmultite;
 // - se aloca dinamic memorie pentru cele doua matrici;
 // - se citesc elementele celor doua matrici cu ajutorul unei functii care primeste ca argumente matricea ale carei elemente trebuie citite (printr-un pointer), numarul de linii si de coloane;

@@ -1,4 +1,4 @@
-// Sa se scrie un program care citește un șir de numere (pozitive și negative) și afișează media aritmetică a numerelor pozitive și media aritmetică a numerelor negative.(Atenție la situația când toate numerele au același semn!).
+// Sa se scrie un program care citește un șir de numere (pozitive și negative) și afișează media aritmetică a numerelor pozitive și media aritmetică a numerelor negative. (Atenție la situația când toate numerele au același semn!).
 
 #include <stdio.h>
 
@@ -28,6 +28,7 @@ int main()
     printf("\n");
 
     // Am tratat separat cazul in care toate nr. sirului sunt 0 deoarece nu l-am inclus pe 0 nici in multimea nr. pozitive, dar nici in multimea nr. negative.
+
     if (nr_poz == 0 && nr_neg == 0)
     {
         printf("Toate numerele sirului sunt 0.\n");

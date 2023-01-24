@@ -1,5 +1,5 @@
 // Sa se scrie un program C in care:
-// - se citește de la tastatura dimensiunile n (nr. linii) si m (nr. coloane) a doua matrice A si B;
+// - se citesc de la tastatura dimensiunile n (nr. linii) si m (nr. coloane) a doua matrice A si B;
 // - se aloca dinamic memorie pentru cele doua matrice;
 // - se citesc elementele celor doua matrice cu ajutorul unei funcții care primește ca argumente matricea ale cărei elemente trebuie citite (printr-un pointer), numărul de linii si de coloane;
 // - se aduna cele doua matrice cu ajutorul unei funcții care primește ca argumente cele doua matrice si dimensiunile lor si aloca dinamic memorie pentru matricea rezultat, întorcând un pointer la aceasta matrice;

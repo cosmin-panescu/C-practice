@@ -14,7 +14,7 @@ int main()
         scanf("%d", &a[i]);
     }
 
-    printf("Elementele celui de-al 2 lea vector sunt: ");
+    printf("Elementele celui de-al 2-lea vector sunt: ");
     for (i = 0; i < n; i++)
     {
         scanf("%d", &b[i]);
