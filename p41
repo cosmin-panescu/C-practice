@@ -1,0 +1,35 @@
+1. Dati un exemplu de aplicatie reala care necesita operatia de sortare.
+- Un exemplu de aplicație reală care necesită operația de sortare este reprezentata de sistemul de evidență a stocului dintr-un magazin. Atunci când un magazin primește un nou stoc, produsele trebuie adăugate la stocul existent. Pentru a putea găsi produsele într-un mod eficient și pentru a le putea arăta clienților într-un mod organizat, este necesar să se sorteze stocul în funcție de anumite criterii, cum ar fi numele produsului sau prețul. 
+-De exemplu, dacă un client caută un anumit produs, angajatul magazinului poate folosi funcția de sortare pentru a găsi produsul într-un timp mai scurt și să-l ofere clientului mai rapid. De asemenea, funcția de sortare poate fi folosită pentru a identifica produsele care au expirat.
+
+2. Cum se poate caracteriza eficienta unui algoritm intr-o aplicatie reala?
+- Eficiența unui algoritm într-o aplicație reală poate fi caracterizată prin măsurarea timpului de execuție, spațiului de memorie utilizat și/sau a numărului de operații efectuate de algoritm. 
+- Timpul de execuție reprezintă perioada de timp necesară algoritmului pentru a finaliza sarcina aferentă aplicației.
+- Spațiul de memorie utilizat reprezintă cantitatea de memorie necesară pentru a stoca datele prelucrate de algoritm. 
+- Numărul de operații efectuate de algoritm reprezintă numărul de instrucțiuni executate de acesta pentru a finaliza sarcina aferentă aplicației.
+- Cu cat timpul de executie, spatiul de memorie utilizat si numarul de operatii sunt mai mici, cu atât algoritmul este considerat mai eficient.
+
+3. Alegeti o structura de date pe care ati folosit-o deja si discutati puncte tari si punctele slabe ale
+acesteia.
+- O structură de date pe care am utilizat-o este stiva (stack). O stivă este o structură de date ce permite introducerea și extragerea elementelor doar la un capăt (numit vârf sau top), respectând regulă LIFO (Last In First Out).
+- Puncte tari: 
+  - simplitatea implementarii
+  - acces rapid la ultimul element introdus
+  - eficienta privind spatiul utilizat
+  - usurinta utilizarii
+- Puncte slabe:
+  - capacitate limitata
+  - acces limitat la elementele din mijlocul stivei (din cauza regulii LIFO)
+  - necesitatea de respectare si mentinere a ordinii introducerii elementelor
+
+4. Dati exemplu de o aplicatie reala in care doar algoritmul cel mai eficient poate fi folosit si de o
+aplicatie in care poate fi folosit un algoritm ce da o solutie aproximativ eficienta.
+- Un exemplu de aplicație în care doar algoritmul cel mai eficient poate fi folosit este căutarea celui mai scurt drum într-un graf mare, cu un număr mare de noduri și muchii. Din cauza numărului mare de noduri și muchii, algoritmi mai puțin eficienți nu ar fi tocmai benefici pentru a da o soluție practică.
+- Un exemplu de aplicație în care poate fi folosit un algoritm ce dă o soluție aproximativ eficientă este optimizarea producției unei fabrici. În acest caz, există multe variabile și restricții care trebuie luate în considerare pentru a determina producția optimă. În multe cazuri, găsirea soluției exacte ar fi prea costisitoare sau chiar imposibilă, astfel că se utilizează algoritmi care oferă o soluție aproximativă, dar suficient de bună pentru a fi utilizată în practică. 
+
+
+
+
+
+
+
