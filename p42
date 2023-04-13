@@ -1,0 +1,17 @@
+1. Dati exemplu de o aplicatie WEB care utilizeaza algoritmi si de o aplicatie WEB care nu utilizeaza algoritmi (in sensul de transformare input/output).
+- Un exemplu de aplicație web care utilizează algoritmi este motorul de căutare Google. Google utilizează algoritmi pentru a indexa și a clasifica  paginile web, astfel încât să poată furniza rezultate relevante utilizatorilor. Algoritmul de căutare Google se bazează pe o serie de factori, cum ar fi cuvintele cheie, popularitatea site-ului, relevanța conținutului și altele, pentru a clasifica paginile web în ordinea de importanță. Aceste concepte intra in sfera SEO-ului
+- Un exemplu de aplicație web care nu utilizează algoritmi este un site web static. Un site web static constă din fișiere HTML, CSS și JavaScript care sunt livrate utilizatorilor așa cum sunt stocate pe server. Nu există o prelucrare a datelor sau o transformare a datelor înainte de a fi trimise utilizatorilor. Acest tip de site-uri web sunt utilizate mai ales pentru a prezenta informații sau pentru a oferi o experiență de navigare simplă, fără funcționalități complexe sau interactivitate.
+
+2. Comparati doi algoritmi de sortare: A1 sorteaza o secventa de n numere in 8n^2 pasi, A2 sorteaza aceeasi secventa in 64*n*ln(n) pasi. Pentru ce valori ale lui n A1 este mai rapid decat A2?
+- Algoritmul A1 are o complexitate de timp de O(n^2), deoarece necesită 8n^2 pași pentru a sorta o secvență de n numere. În schimb, algoritmul A2 are o complexitate de timp de O(n*log(n)), deoarece necesită 64 n ln(n) pași pentru a sorta aceeași secvență de n numere.
+- Pentru a determina valorile lui n pentru care A1 este mai rapid decât A2, trebuie să comparăm timpul de execuție al celor doi algoritmi. În general, pentru valori mici ale lui n, A1 ar trebui să fie mai rapid decât A2. Însă, pentru valori mai mari ale lui n, algoritmul A2 este de obicei mai rapid decât A1.
+
+3. Care este cea mai mica valoare a lui n pentru care un algoritm care necesita 100n^2 pasi ruleaza mai rapid decat un algoritm care necesita 2^n pasi?
+- Pentru a afla cea mai mică valoare a lui n pentru care un algoritm care necesită 100n^2 pași rulează mai rapid decât un algoritm care necesită 2^n pași, putem egala cele două expresii și să rezolvăm ecuatia
+100n^2 = 2^n
+
+
+
+
+
+
